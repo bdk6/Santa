@@ -1,0 +1,4 @@
+The main board will have the CPU, RAM, ROM, all interfaces, maybe an RTC, and
+connectors for keyboard, expansion, and display.  It should also include a
+USB interface, battery charger, and voltage regulator, as well as a battery
+holder for a single 18650 LiIon/LiPo cell.
