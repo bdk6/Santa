@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -26,28 +26,6 @@ F 3 "" H 2300 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Memory_EEPROM:28C256 U?
-U 1 1 606D8F25
-P 18650 2900
-F 0 "U?" H 18650 4178 50  0000 C CNN
-F 1 "28C256" H 18650 4087 50  0000 C CNN
-F 2 "" H 18650 2900 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 18650 2900 50  0001 C CNN
-	1    18650 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L bdk_Memory:AS6C4008 U?
-U 1 1 606E52AB
-P 20850 2150
-F 0 "U?" H 21125 2315 50  0000 C CNN
-F 1 "AS6C4008" H 21125 2224 50  0000 C CNN
-F 2 "" H 20900 2050 50  0001 C CNN
-F 3 "" H 20900 2050 50  0001 C CNN
-	1    20850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L bdk_logic:74hc574 U?
 U 1 1 606E65B3
 P 4350 4750
@@ -56,17 +34,6 @@ F 1 "74hc574" H 4350 4774 50  0000 C CNN
 F 2 "" H 4350 4750 50  0001 C CNN
 F 3 "" H 4350 4750 50  0001 C CNN
 	1    4350 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L bdk_logic:74hc574 U?
-U 1 1 606FA9F2
-P 21100 200
-F 0 "U?" H 21100 315 50  0000 C CNN
-F 1 "74hc574" H 21100 224 50  0000 C CNN
-F 2 "" H 21100 200 50  0001 C CNN
-F 3 "" H 21100 200 50  0001 C CNN
-	1    21100 200 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -347,190 +314,6 @@ Wire Wire Line
 	1400 6850 1400 7850
 Wire Wire Line
 	1400 7850 8350 7850
-Wire Wire Line
-	20700 2450 20750 2450
-Wire Wire Line
-	20650 2550 20750 2550
-Wire Wire Line
-	20600 2650 20750 2650
-Wire Wire Line
-	21400 1000 21500 1000
-Wire Wire Line
-	21500 1000 21500 1750
-Wire Wire Line
-	21500 1750 20600 1750
-Wire Wire Line
-	20600 1750 20600 2650
-Wire Wire Line
-	21400 800  21550 800 
-Wire Wire Line
-	21550 800  21550 1800
-Wire Wire Line
-	21550 1800 20650 1800
-Wire Wire Line
-	20650 1800 20650 2550
-Wire Wire Line
-	21400 600  21600 600 
-Wire Wire Line
-	21600 600  21600 1850
-Wire Wire Line
-	21600 1850 20700 1850
-Wire Wire Line
-	20700 1850 20700 2450
-Wire Wire Line
-	21400 400  21650 400 
-Wire Wire Line
-	20750 1900 20750 2350
-Wire Wire Line
-	22000 2550 22000 500 
-Wire Wire Line
-	21400 500  22000 500 
-Wire Wire Line
-	21500 2550 22000 2550
-Wire Wire Line
-	21500 2750 21900 2750
-Wire Wire Line
-	21500 3050 21800 3050
-Wire Wire Line
-	21950 700  21950 2450
-Wire Wire Line
-	21500 2450 21950 2450
-Wire Wire Line
-	21400 700  21950 700 
-Wire Wire Line
-	21900 900  21900 2750
-Wire Wire Line
-	21400 900  21900 900 
-Wire Wire Line
-	21400 1100 21800 1100
-Wire Wire Line
-	21800 1100 21800 3050
-Wire Wire Line
-	21650 400  21650 1900
-Wire Wire Line
-	21650 1900 20750 1900
-Wire Wire Line
-	21900 4550 21900 3450
-Wire Wire Line
-	21900 3450 21500 3450
-Wire Wire Line
-	21850 4500 21850 3550
-Wire Wire Line
-	21850 3550 21500 3550
-Wire Wire Line
-	19050 2500 19300 2500
-Wire Wire Line
-	21800 4450 21800 3650
-Wire Wire Line
-	21800 3650 21500 3650
-Wire Wire Line
-	19050 2400 19250 2400
-Wire Wire Line
-	21750 4400 21750 3750
-Wire Wire Line
-	21750 3750 21500 3750
-Wire Wire Line
-	19050 2300 19200 2300
-Wire Wire Line
-	21700 4350 21700 3850
-Wire Wire Line
-	21700 3850 21500 3850
-Wire Wire Line
-	19050 2200 19150 2200
-Wire Wire Line
-	19050 2100 19100 2100
-Wire Wire Line
-	20800 400  19050 400 
-Wire Wire Line
-	19050 400  19050 2000
-Connection ~ 19050 2000
-Wire Wire Line
-	20800 500  19100 500 
-Wire Wire Line
-	19100 500  19100 2100
-Connection ~ 19100 2100
-Wire Wire Line
-	20800 600  19150 600 
-Wire Wire Line
-	19150 600  19150 2200
-Connection ~ 19150 2200
-Wire Wire Line
-	20800 700  19200 700 
-Wire Wire Line
-	19200 700  19200 2300
-Connection ~ 19200 2300
-Wire Wire Line
-	20800 800  19250 800 
-Wire Wire Line
-	19250 800  19250 2400
-Connection ~ 19250 2400
-Wire Wire Line
-	20800 900  19300 900 
-Wire Wire Line
-	19300 900  19300 2500
-Connection ~ 19300 2500
-Wire Wire Line
-	19800 2000 19800 3550
-Wire Wire Line
-	19800 3550 20750 3550
-Wire Wire Line
-	19050 2000 19800 2000
-Wire Wire Line
-	19750 2100 19750 3650
-Wire Wire Line
-	19750 3650 20750 3650
-Wire Wire Line
-	19100 2100 19750 2100
-Wire Wire Line
-	19700 2200 19700 3750
-Wire Wire Line
-	19700 3750 20750 3750
-Wire Wire Line
-	19150 2200 19700 2200
-Wire Wire Line
-	19650 2300 19650 4350
-Wire Wire Line
-	19650 4350 21700 4350
-Wire Wire Line
-	19200 2300 19650 2300
-Wire Wire Line
-	19600 2400 19600 4400
-Wire Wire Line
-	19600 4400 21750 4400
-Wire Wire Line
-	19250 2400 19600 2400
-Wire Wire Line
-	19550 2500 19550 4450
-Wire Wire Line
-	19550 4450 21800 4450
-Wire Wire Line
-	19300 2500 19550 2500
-Wire Wire Line
-	19500 2600 19500 4500
-Wire Wire Line
-	19500 4500 21850 4500
-Wire Wire Line
-	19050 2600 19350 2600
-Wire Wire Line
-	19450 2700 19450 4550
-Wire Wire Line
-	19450 4550 21900 4550
-Wire Wire Line
-	19050 2700 19400 2700
-Wire Wire Line
-	20800 1000 19350 1000
-Wire Wire Line
-	19350 1000 19350 2600
-Connection ~ 19350 2600
-Wire Wire Line
-	19350 2600 19500 2600
-Wire Wire Line
-	20800 1100 19400 1100
-Wire Wire Line
-	19400 1100 19400 2700
-Connection ~ 19400 2700
-Wire Wire Line
-	19400 2700 19450 2700
 $Comp
 L Connector_Generic:Conn_01x40 J?
 U 1 1 608F318F
@@ -616,4 +399,64 @@ Wire Wire Line
 	9200 7150 9200 7550
 Wire Wire Line
 	1700 7550 9200 7550
+$Sheet
+S 9600 7900 2050 2050
+U 609D1BF7
+F0 "Santa_Memory" 50
+F1 "Santa_Memory.sch" 50
+$EndSheet
+Text HLabel 10000 8100 0    50   Input ~ 0
+Mem_D0
+Text HLabel 10000 8200 0    50   Input ~ 0
+Mem_D1
+Text HLabel 10000 8300 0    50   Input ~ 0
+Mem_D2
+Text HLabel 10000 8400 0    50   Input ~ 0
+Mem_D3
+Text HLabel 10000 8500 0    50   Input ~ 0
+Mem_D4
+Text HLabel 10000 8600 0    50   Input ~ 0
+Mem_D5
+Text HLabel 10000 8700 0    50   Input ~ 0
+Mem_D6
+Text HLabel 10000 8800 0    50   Input ~ 0
+Mem_D7
+Text HLabel 10000 8950 0    50   Input ~ 0
+Mem_A0
+Text HLabel 10000 9050 0    50   Input ~ 0
+Mem_A1
+Text HLabel 10000 9150 0    50   Input ~ 0
+Mem_A2
+Text HLabel 10000 9250 0    50   Input ~ 0
+Mem_A3
+Text HLabel 10000 9350 0    50   Input ~ 0
+Mem_A4
+Text HLabel 10000 9450 0    50   Input ~ 0
+Mem_A5
+Text HLabel 10000 9550 0    50   Input ~ 0
+Mem_A6
+Text HLabel 10000 9650 0    50   Input ~ 0
+Mem_A7
+Text HLabel 9950 9750 0    50   Input ~ 0
+Mem_A8
+Text HLabel 10000 9850 0    50   Input ~ 0
+Mem_A9
+Text HLabel 10550 9150 0    50   Input ~ 0
+Mem_A10
+Text HLabel 10550 9250 0    50   Input ~ 0
+Mem_A11
+Text HLabel 10550 9350 0    50   Input ~ 0
+Mem_A12
+Text HLabel 10550 9450 0    50   Input ~ 0
+Mem_A13
+Text HLabel 10550 9550 0    50   Input ~ 0
+Mem_A14
+Text HLabel 10550 9650 0    50   Input ~ 0
+Mem_A15
+$Sheet
+S 1700 1200 1400 1550
+U 60788107
+F0 "Santa_Power" 50
+F1 "Santa_Power.sch" 50
+$EndSheet
 $EndSCHEMATC

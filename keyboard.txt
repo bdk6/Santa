@@ -1,0 +1,18 @@
+
+
+[`] [1] [2] [3] [4] [5] [6] [7] [8] [9] [0] [-] [=] [BS]    14
+[TAB][Q] [W] [E] [R] [T] [Y] [U] [I] [O] [P] [[] []] [\]    14
+[CAP] [A] [S] [D] [F] [G] [H] [J] [K] [L] [;] ['] [ RET]    13
+[SHFT] [Z] [X] [C] [V] [B] [N] [M] [,] [.] [/] [SHFT]       10/11/12
+[CTL]         [           SPACE         ]       [CTL]       1/2/3
+                                                            --------
+                                                            52 - 56
+
+SHFT keys connected together and handled separate from scan
+CTL keys connected together and handled separate from scan
+   D7   D6   D5   D4   D3   D2   D1   D0
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |
+   SH  CTL  SD5  SD4  SD3  SD2  SD1  SD0
+           [          Scan Code         ]
+           
